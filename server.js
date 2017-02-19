@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 var articles={
-    'articleone':{
+    'article-one':{
     title:'Article-One|Kabilesh',
     heading:'Article-One',
     date:'Feb 19, 2017',

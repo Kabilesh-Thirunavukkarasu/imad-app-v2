@@ -9,7 +9,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 var articles={
-    articleone:{
+    'article-one':{
     title:'Article-One|Kabilesh',
     heading:'Article-One',
     date:'Feb 19, 2017',
@@ -25,7 +25,7 @@ var articles={
             </p>
       `
 },
-    articletwo:{
+    'article-two':{
         title:'Article-Two|Kabilesh',
         heading:'Article-Two',
         date:'Feb 19, 2017',
@@ -39,7 +39,7 @@ var articles={
                
       `
     },
-    articlethree:{
+    'article-three':{
         title:'Article-Three|Kabilesh',
         heading:'Article-Three',
         date:'Feb 19, 2017',

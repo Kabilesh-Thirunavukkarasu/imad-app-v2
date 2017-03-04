@@ -4,6 +4,7 @@ element.innerHTML='This is the text';
 
 var img=document.getElementById('pic');
 
+
 var marginLeft = 0;
 function moveRight(){
     marginLeft=marginLeft+10;

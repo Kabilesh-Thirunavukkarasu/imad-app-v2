@@ -8,7 +8,7 @@ var marginleft = 0;
 function moveRight(){
     marginleft=marginleft+10;
     pic.style.marginleft=marginleft + 'px';
-};
+}
 pic.onclick = function() {
     var interval = (moveRight,100);
 };

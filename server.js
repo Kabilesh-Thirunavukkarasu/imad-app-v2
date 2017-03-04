@@ -93,6 +93,10 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
 app.get('/ui/5E8B2160-2.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '5E8B2160-2.jpg'));
 });

@@ -1,6 +1,6 @@
 console.log('Loaded!');
-var element=document.getElementById('kb');
-element.innerHTML='This is the text';
+//var element=document.getElementById('kb');
+//element.innerHTML='This is the text';
 
 var img=document.getElementById('pic');
 

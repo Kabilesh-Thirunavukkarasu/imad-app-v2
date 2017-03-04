@@ -4,11 +4,11 @@ element.innerHTML='This is the text';
 
 var imp=document.getElementById('pic');
 
-var marginleft = 0;
+var marginLeft = 0;
 function moveRight(){
-    marginleft=marginleft+10;
-    pic.style.marginleft=marginleft + 'px';
+    marginLeft=marginLeft+10;
+    pic.style.marginLeft=marginLeft + 'px';
 }
 pic.onclick = function() {
-    var interval = (moveRight,100);
+    var interval = setinterval(moveRight,100);
 };

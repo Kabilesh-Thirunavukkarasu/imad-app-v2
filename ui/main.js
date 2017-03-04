@@ -1,3 +1,3 @@
 console.log('Loaded!');
-var element=document.getelementById('kb');
+var element=document.getElementById('kb');
 element.innerHTML='This is the text';
